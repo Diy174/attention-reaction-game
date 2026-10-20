@@ -54,16 +54,6 @@ npm run build
 
 Session summaries are stored locally in the current browser using localStorage. Results are not sent to a remote server by this prototype. Exported JSON files may contain session timestamps.
 
-## Azure Deployment Plan
-
-The frontend can be deployed as a static web application using Azure Static Web Apps.
-
-1. Push the repository to GitHub.
-2. Create an Azure Static Web App resource.
-3. Connect the GitHub repository.
-4. Configure the app location as `/`, the API location as blank, and the output location as `dist`.
-5. Deploy and verify the hosted application.
-
 ## Limitations
 
 This is an educational prototype, not a clinical or diagnostic assessment. Reaction times can vary with device performance, display latency, and input method.
